@@ -1,0 +1,158 @@
+/* Normal desktop :1200px. */
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    .header-area {
+        padding: 0 0px;
+    }
+    .header-btn .btn {
+        padding: 20px 30px;
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .header-area {
+        padding: 0 0px;
+    }
+    .header-btn .btn {
+        padding: 20px;
+    }
+    .main-menu li {
+        margin: 0;
+    }
+    .header-bar,  .about-btn .border-btn {
+        margin-left: 10px;
+    }
+    .section-title h2 {
+        font-size: 60px;
+    }
+    .hero-content h1 {
+        font-size: 70px;
+    }
+    .btn {
+        padding: 20px 30px;
+    }
+    .single-service-box {
+        padding: 30px;
+    }
+    .portfolio-menu button {
+        margin: 0 8px;
+    }
+    .cta-text h2 {
+        font-size: 50px;
+    }
+    .cta-btn .btn.border-btn {
+        margin-left: 0px;
+    }
+    .single-explore-box {
+        padding: 20px;
+    }
+    .explore-icon {
+        margin-right: 15px;
+    }
+    .single-testimonial-item {
+        padding: 25px;
+    }
+    .newsfeed-text h4, .newsfeed-title h4 {
+        font-size: 20px;
+    }
+    .footer-title h3 {
+        font-size: 30px;
+    }
+    .widget-text span {
+        font-size: 18px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media only screen and (max-width: 991px) {
+    .header-area {
+        padding: 0 30px;
+    }
+    .hero-content {
+        padding: 80px 0;
+    }
+    .portfolio-menu {
+        float: left;
+        margin-bottom: 30px;
+    }
+    .single-explore-box {
+        padding: 30px;
+    }
+    .education-img2 {
+        position: relative;
+        top: 30px;
+    }
+    .education-img1 {
+        position: relative;
+    }
+    .section-title h2 {
+        font-size: 55px;
+    }
+
+}
+/* small mobile :320px. */
+@media only screen and (max-width: 767px) {
+    .hero-content h1 {
+        font-size: 46px;
+    }
+    .hero-btn .video-play-btn {
+        display: block;
+        margin-top: 20px;
+    }
+    .section-title h2 {
+        font-size: 35px;
+    }
+    .about-btn .border-btn {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .portfolio-menu button {
+        margin: 0 0;
+        font-size: 13px;
+    }
+    .cta-wrapper {
+        padding: 30px;
+    }
+    .cta-text h2 {
+        font-size: 30px;
+    }
+    .cta-btn .btn.border-btn {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .newsfeed-head {
+        display: block;
+    }
+    .comments {
+        margin: 20px 0;
+    }
+    .newsfeed-text h4 {
+        font-size: 20px;
+    }
+    .footer-title h3 {
+        font-size: 25px;
+    }
+    .about-wrapper {
+        padding: 80px 0;
+    }
+    .service-area, .skill-area, .portfolio-area, .team-area, .counter-area, .testimonial-area, .newsfeed-area, .contact-area, .footer-area {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .explore-area {
+        padding-top: 240px;
+        padding-bottom: 50px;
+    }
+    .education-area {
+        padding-top: 80px;
+    }
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
